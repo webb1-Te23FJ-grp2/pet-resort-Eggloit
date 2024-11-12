@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.wrapper {
+  width: 1200px;
+  display: grid;
+}
+
+.top {
+  margin: 20px;
+  /* border: solid 5px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-left {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toptext {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: 30px;
+}
+
+.logo {
+  size-adjust: 10%;
+}
+
+h1 {
+  margin: 10px;
+}
+.background-image {
+background-image: url(img/happiest-dog.webp);
+height: 600px
+}
+
+.grass-img {
+    margin: 20px;
+}
+
+.text-under {
+
+}
