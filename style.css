@@ -7,6 +7,10 @@ img {
   object-fit: cover;
   object-position: center;
 }
+body{
+  display: flex;
+  justify-content: center;
+}
 
 .wrapper {
   width: 1200px;
@@ -15,7 +19,6 @@ img {
 
 .top {
   margin: 20px;
-  /* border: solid 5px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,15 +50,58 @@ img {
 h1 {
   margin: 10px;
 }
+
+h2 {
+  margin: 10px;
+}
+
 .background-image {
-background-image: url(img/happiest-dog.webp);
-height: 600px
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-image: url(img/happiest-dog.webp);
+  height: 600px;
 }
 
 .grass-img {
-    margin: 20px;
+  margin: 20px;
 }
 
-.text-under {
-
+#text-pet-resort1 {
+  color: white;
+  margin: 20px;
+  font-size: 40px;
 }
+
+#text-pet-resort2 {
+  color: white;
+  margin: 5px 20px 40px 20px;
+  font-size: 20px;
+}
+
+.cards {
+  display: grid;
+  columns: 1fr 1fr 1fr 1fr;
+  }
+
+.october-grooming {
+  display: flex;
+  justify-content: start;
+}
+
+.october-grooming-img {
+  margin: 15px;
+  border-radius: 4%;
+}
+
+.october-grooming-text {
+  margin: 15px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.book-grooming {
+  font-size: 15px;
+}
+
