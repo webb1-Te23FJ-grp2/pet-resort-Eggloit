@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 30px;
+}
+
 img {
   display: block;
   object-fit: cover;
@@ -11,12 +15,12 @@ img {
 body {
   display: flex;
   justify-content: center;
+  background-color: rgb(240, 240, 240);
 }
 
 .wrapper {
   width: 1200px;
   display: grid;
-  background-color: rgb(235, 235, 235);
 }
 
 .top {
@@ -49,15 +53,22 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 20px;
+  font-size: 35px;
 }
 
 h2 {
-  margin: 10px;
+  margin: 0px;
+  width: 100%;
+}
+
+.merch h2, .buddies-for-life h2, .fine-dining h2, .partners h2 {
+  margin: 20px;
+  width: 100%;
 }
 
 .background-image {
-  margin: 25px;
+  margin-bottom: 25px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -84,13 +95,11 @@ h2 {
 
 .cards {
   display: grid;
-  margin: 25px;
   gap: 15px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "october  october october partners"
-    "merch  buddies  fine partners"
-    "march  buddies fine  partners";
+    "merch  buddies  fine partners";
 }
 
 .october-grooming {
@@ -105,7 +114,7 @@ h2 {
 .october-grooming-img {
   display: flex;
   border-radius: 15px;
-  margin: 15px;
+  margin: 20px;
 }
 
 .october-grooming-text {
@@ -113,6 +122,7 @@ h2 {
   display: flex;
   align-items: start;
   flex-direction: column;
+  text-align: start;
 }
 
 .book-grooming {
@@ -152,7 +162,7 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: center;
+  text-align: start;
 }
 
 .pl {
@@ -173,5 +183,5 @@ h2 {
 }
 
 .yap {
-  margin: 10px;
+  margin: 20px;
 }
